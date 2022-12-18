@@ -1,0 +1,17 @@
+body {
+    color: aquamarine;
+    font-family: '', sans-serif;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.header-link :hover,
+.header-link :focus {
+    color: brown;
+}
