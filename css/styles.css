@@ -1,17 +1,238 @@
+/** @format */
+
+:root {
+  --primary-brand-color: #4d5ae5;
+  --dark-color: #2e2f42;
+  --success-color: #31d0aa;
+  --text-color: #434455;
+  --subtle-text-color: #8e8f99;
+  --accent-color: #e7e9fc;
+  --light-color: #f4f4fd;
+  --white-color: #ffffff;
+  --btn-color-two: #404bbf;
+}
+
 body {
-    color: aquamarine;
-    font-family: '', sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.02em;
+  color: var(--dark-color);
+}
+
+/* _______________________ HEADER __________________________*/
+.logo,
+.logo-web {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: calc(24 / 18);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--dark-color);
+}
+
+.logo-web {
+  color: var(--primary-brand-color);
 }
 
 .list {
-    list-style: none;
+  list-style: none;
 }
 
 .link {
-    text-decoration: none;
+  text-decoration: none;
+  color: var(--text-color);
 }
 
 .header-link :hover,
 .header-link :focus {
-    color: brown;
+  color: var(--text-color);
+}
+
+.header-link :active {
+  color: var(--primary-brand-color);
+}
+
+/* _______________________ MAIN __________________________*/
+/*___________title______________*/
+
+.title {
+  background-color: var(--dark-color);
+}
+.title-text {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: calc(60 / 56);
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--white-color);
+}
+.title-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: var(--white-color);
+  background-color: var(--primary-brand-color);
+  width: 170px;
+  height: 51px;
+  border: 1px solid var(--primary-brand-color);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.title-btn :hover,
+.title-btn :focus {
+  color: var(--primary-brand-color);
+}
+.title-btn :active {
+  border: 1px solid var(--btn-color-two);
+  color: var(--btn-color-two);
+}
+
+/*___________section strategy______________*/
+
+.studio-list {
+}
+.studio-list-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark-color);
+}
+.studio-list-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+
+/*___________section whatwedo______________*/
+
+.whatwedo-section {
+}
+.whatwedo-titel {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--dark-color);
+}
+.whatwedo-foto {
+  width: 360;
+  height: 300;
+}
+
+/*___________section team______________*/
+
+.team-section {
+  background-color: var(--light-color);
+}
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--dark-color);
+}
+.team-list {
+}
+
+.team-figure {
+  width: 264px;
+  height: 380px;
+  text-align: center;
+  border: 0.5px solid var(--light-color);
+  background-color: var(--white-color);
+}
+.team-figure-caption,
+.portfolio-figure-caption {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.team-figure-text,
+.portfolio-figure-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+
+/* _______________________ FOOTER __________________________*/
+
+.footer-section {
+  background-color: var(--dark-color);
+}
+
+.footer-logo {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: calc(21 / 18);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--light-color);
+}
+
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
+}
+
+/*______________________________________PORTFOLIO_______________________*/
+
+/*___________section buttons______________*/
+
+.portfolio-btn-section {
+}
+
+.portfolio-btn {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--primary-brand-color);
+  background-color: var(--light-color);
+  border: 1px solid var(--accent-color);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.portfolio-btn :hover,
+.portfolio-btn :focus {
+  background-color: var(--primary-brand-color);
+  color: var(--white-color);
+}
+.portfolio-btn :active {
+  background-color: var(--btn-color-two);
+  color: var(--white-color);
+}
+
+/*___________ section portfolio ______________*/
+
+.portfolio-section {
+}
+.portfolio-figure {
+  width: 360px;
+  height: 420px;
+  border: 0.5px solid var(--light-color);
+  background-color: var(--white-color);
+}
+.portfolio-figure-caption,
+.portfolio-figure-text {
+  text-align: left;
 }
