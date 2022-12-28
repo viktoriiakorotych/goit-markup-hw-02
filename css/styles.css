@@ -44,10 +44,6 @@ body {
   color: var(--text-color);
 }
 
-.header-link :hover {
-  color: red;
-}
-
 .header-link :hover,
 .header-link :focus {
   color: var(--primary-brand-color);
