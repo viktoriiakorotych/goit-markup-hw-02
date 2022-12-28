@@ -14,10 +14,9 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
   font-size: 16px;
-  line-height: calc(24 / 16);
-  letter-spacing: 0.02em;
+  /*line-height: calc(24 / 16);*/ 
+  letter-spacing: 0.02em; 
   color: var(--dark-color);
 }
 
@@ -45,9 +44,13 @@ body {
   color: var(--text-color);
 }
 
+.header-link :hover {
+  color: red;
+}
+
 .header-link :hover,
 .header-link :focus {
-  color: var(--text-color);
+  color: var(--primary-brand-color);
 }
 
 .header-link :active {
@@ -130,7 +133,7 @@ body {
 }
 
 /*___________section team______________*/
-
+/*
 .team-section {
   background-color: var(--light-color);
 }
@@ -170,7 +173,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--text-color);
 }
-
+*/
 /* _______________________ FOOTER __________________________*/
 
 .footer-section {
@@ -197,9 +200,6 @@ body {
 
 /*___________section buttons______________*/
 
-.portfolio-btn-section {
-}
-
 .portfolio-btn {
   font-weight: 600;
   font-size: 16px;
@@ -224,7 +224,7 @@ body {
 }
 
 /*___________ section portfolio ______________*/
-
+/*
 .portfolio-section {
 }
 .portfolio-figure {
@@ -237,3 +237,4 @@ body {
 .portfolio-figure-text {
   text-align: left;
 }
+/*
