@@ -8,6 +8,12 @@
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>WEBSTUDIO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- header -->
@@ -20,46 +26,48 @@
         <li><a class="link" href="">Contacts</a></li>
       </ul>
       <div>
-        <a class="header-link link" href="mailto:info@devstudio.com"> info@devstudio.com </a>
-        <a class="header-link link" href="tel:+11(000)1111111"> +11 (000) 111-11-11 </a>
+        <a class="header-contact-link link" href="mailto:info@devstudio.com">
+          info@devstudio.com
+        </a>
+        <a class="header-contact-link link" href="tel:+11(000)1111111"> +11 (000) 111-11-11 </a>
       </div>
     </header>
     <!-- main -->
     <main>
       <!--section title-->
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+      <section class="main-title">
+        <h1 class="main-title-text">Effective Solutions for Your Business</h1>
+        <button class="main-btn" type="button">Order Service</button>
       </section>
 
-      <!--section strategy-->
+      <!--section features-->
       <section>
         <!-- <h2>Features</h2>-->
-        <ul>
+        <ul class="list">
           <li>
-            <h3>Strategy</h3>
-            <p>
+            <h3 class="features-title">Strategy</h3>
+            <p class="features-text">
               Our goal is to identify the business problem to walk away with the perfect and
               creative solution.
             </p>
           </li>
           <li>
-            <h3>Punctuality</h3>
-            <p>
+            <h3 class="features-title">Punctuality</h3>
+            <p class="features-text">
               Bring the key message to the brand's audience for the best price within the shortest
               possible time.
             </p>
           </li>
           <li>
-            <h3>Diligence</h3>
-            <p>
+            <h3 class="features-title">Diligence</h3>
+            <p class="features-text">
               Research and confirm brands that present the strongest digital growth opportunities
               and minimize risk.
             </p>
           </li>
           <li>
-            <h3>Technologies</h3>
-            <p>
+            <h3 class="features-title">Technologies</h3>
+            <p class="features-text">
               Design practice focused on digital experiences. We bring forth a deep passion for
               problem-solving.
             </p>
@@ -69,64 +77,49 @@
 
       <!--section whatwedo-->
       <section>
-        <h2>What are we doing</h2>
-        <ul>
+        <h2 class="whatwedo-titel">What are we doing</h2>
+        <ul class="list">
           <li>
-            <img src="./img/whatwedo/computer.jpg" alt="computer" />
+            <img class="whatwedo-foto" src="./img/whatwedo/computer.jpg" alt="computer" />
           </li>
           <li>
-            <img src="./img/whatwedo/screenshots.jpg" alt="screenshots" />
+            <img class="whatwedo-foto" src="./img/whatwedo/screenshots.jpg" alt="screenshots" />
           </li>
           <li>
-            <img src="./img/whatwedo/handy.jpg" alt="handy" />
+            <img class="whatwedo-foto" src="./img/whatwedo/handy.jpg" alt="handy" />
           </li>
         </ul>
       </section>
 
       <!--section team-->
-      <section>
-        <h2>Our Team</h2>
-        <ul>
-          <li>
-            <img
-              src="./img/ourteam/markguerrero.jpg"
-              alt="Mark Guerrero"
-              width="264"
-              height="260"
-            />
-            <h3>Mark Guerrero</h3>
-            <p>Product Designer</p>
+      <section class="team-section">
+        <h2 class="team-title">Our Team</h2>
+        <ul class="list">
+          <li class="team-block">
+            <img class="team-foto" src="./img/ourteam/markguerrero.jpg" alt="Mark Guerrero" />
+            <h3 class="team-titel">Mark Guerrero</h3>
+            <p class="team-text">Product Designer</p>
           </li>
-          <li>
-            <img src="./img/ourteam/tomford.jpg" alt="Tom Ford" width="264" height="260" />
-            <h3>Tom Ford</h3>
-            <p>Frontend Developer</p>
+          <li class="team-block">
+            <img class="team-foto" src="./img/ourteam/tomford.jpg" alt="Tom Ford" />
+            <h3 class="team-titel">Tom Ford</h3>
+            <p class="team-text">Frontend Developer</p>
           </li>
-          <li>
-            <img
-              src="./img/ourteam/camilagarcia.jpg"
-              alt="Camila Garcia"
-              width="264"
-              height="260"
-            />
-            <h3>Camila Garcia</h3>
-            <p>Marketing</p>
+          <li class="team-block">
+            <img class="team-foto" src="./img/ourteam/camilagarcia.jpg" alt="Camila Garcia" />
+            <h3 class="team-titel">Camila Garcia</h3>
+            <p class="team-text">Marketing</p>
           </li>
-          <li>
-            <img
-              src="./img/ourteam/danielwilson.jpg"
-              alt="Daniel Wilson"
-              width="264"
-              height="260"
-            />
-            <h3>Daniel Wilson</h3>
-            <p>UI Designer</p>
+          <li class="team-block">
+            <img class="team-foto" src="./img/ourteam/danielwilson.jpg" alt="Daniel Wilson" />
+            <h3 class="team-titel">Daniel Wilson</h3>
+            <p class="team-text">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
     <!-- footer-->
-    <footer>
+    <footer class="footer-section">
       <a class="footer-logo link" href="./index.html"> <span class="logo-web">WEB</span>STUDIO </a>
       <p class="footer-text">
         Increase the flow of customers and sales for your business with digital marketing & growth

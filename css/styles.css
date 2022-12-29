@@ -13,19 +13,21 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
-  /*line-height: calc(24 / 16);*/ 
-  letter-spacing: 0.02em; 
+  /*line-height: calc(24 / 16);*/
+  letter-spacing: 0.02em;
   color: var(--dark-color);
+  background-color: var(--white-color);
 }
 
 /* _______________________ HEADER __________________________*/
 .logo,
 .logo-web {
-  font-weight: 700;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
   font-size: 18px;
-  line-height: calc(24 / 18);
+  line-height: 1.33;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--dark-color);
@@ -41,34 +43,55 @@ body {
 
 .link {
   text-decoration: none;
-  color: var(--text-color);
+}
+
+.header-link {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  cursor: pointer;
 }
 
 .header-link :hover,
 .header-link :focus {
-  color: var(--primary-brand-color);
+  color: var(--text-color);
 }
 
 .header-link :active {
   color: var(--primary-brand-color);
 }
 
+.header-contact-link {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+
+.header-contact-link :hover,
+.header-contact-link :focus,
+.header-contact-link :active {
+  color: var(--primary-brand-color);
+}
+
 /* _______________________ MAIN __________________________*/
 /*___________title______________*/
 
-.title {
+.main-title {
   background-color: var(--dark-color);
 }
-.title-text {
-  font-weight: 700;
+.main-title-text {
+  font-weight: 600;
   font-size: 56px;
-  line-height: calc(60 / 56);
+  line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--white-color);
 }
-.title-btn {
-  font-weight: 700;
+
+.main-btn {
+  font-family: 'Roboto';
+  font-weight: 600;
   font-size: 16px;
   line-height: calc(19 / 16);
   align-items: center;
@@ -80,30 +103,29 @@ body {
   border: 1px solid var(--primary-brand-color);
   border-radius: 4px;
   cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.title-btn :hover,
-.title-btn :focus {
+.main-btn :hover,
+.main-btn :focus {
   color: var(--primary-brand-color);
 }
-.title-btn :active {
+.main-btn :active {
   border: 1px solid var(--btn-color-two);
   color: var(--btn-color-two);
 }
 
-/*___________section strategy______________*/
+/*___________section features ______________*/
 
-.studio-list {
-}
-.studio-list-title {
-  font-weight: 700;
+.features-title {
+  font-weight: 600;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--dark-color);
 }
-.studio-list-text {
-  font-size: 16px;
+
+.features-text {
+  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color);
@@ -111,30 +133,28 @@ body {
 
 /*___________section whatwedo______________*/
 
-.whatwedo-section {
-}
 .whatwedo-titel {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: var(--dark-color);
 }
 .whatwedo-foto {
+  box-sizing: border-box;
   width: 360px;
   height: 300px;
   border: 1px solid var(--accent-color);
 }
 
 /*___________section team______________*/
-/*
+
 .team-section {
   background-color: var(--light-color);
 }
 .team-title {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -142,34 +162,36 @@ body {
   text-transform: capitalize;
   color: var(--dark-color);
 }
-.team-list {
-}
 
-.team-figure {
+.team-block {
   width: 264px;
   height: 380px;
-  text-align: center;
-  border: 0.5px solid var(--light-color);
-  background-color: var(--white-color);
+  background: var(--white-color);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
 }
-.team-figure-caption,
-.portfolio-figure-caption {
-  font-weight: 700;
+
+.team-foto {
+  width: 264px;
+  height: 260px;
+}
+
+.team-titel {
+  font-weight: 600;
   font-size: 20px;
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
 }
-.team-figure-text,
-.portfolio-figure-text {
-  font-weight: 400;
-  font-size: 16px;
+
+.team-text {
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--text-color);
 }
-*/
+
 /* _______________________ FOOTER __________________________*/
 
 .footer-section {
@@ -177,7 +199,8 @@ body {
 }
 
 .footer-logo {
-  font-weight: 700;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
   font-size: 18px;
   line-height: calc(21 / 18);
   letter-spacing: 0.03em;
@@ -186,7 +209,6 @@ body {
 }
 
 .footer-text {
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--accent-color);
@@ -197,6 +219,7 @@ body {
 /*___________section buttons______________*/
 
 .portfolio-btn {
+  font-family: 'Roboto', sans-serif;
   font-weight: 600;
   font-size: 16px;
   line-height: 1.5;
@@ -220,17 +243,29 @@ body {
 }
 
 /*___________ section portfolio ______________*/
-/*
-.portfolio-section {
-}
-.portfolio-figure {
+
+.portfolio-block {
   width: 360px;
   height: 420px;
   border: 0.5px solid var(--light-color);
   background-color: var(--white-color);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
-.portfolio-figure-caption,
-.portfolio-figure-text {
-  text-align: left;
+
+.portfolio-foto {
+  width: 360px;
+  height: 300px;
 }
-/*
+
+.portfolio-titel {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.portfolio-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
