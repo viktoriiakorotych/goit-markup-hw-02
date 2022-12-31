@@ -12,6 +12,31 @@
   --pressed-state-color: #404bbf;
 }
 
+/*
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+*/
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
@@ -21,6 +46,20 @@ body {
 }
 
 /* _______________________ HEADER __________________________*/
+
+.header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.container {
+  width: 1440px;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 1px solid red;
+  margin: 0 auto;
+}
+
 .logo,
 .logo-web {
   font-family: 'Raleway', sans-serif;
@@ -73,6 +112,8 @@ body {
 /*___________title______________*/
 
 .main-title {
+  padding-top: 188px;
+  padding-bottom: 292px;
   background-color: var(--dark-color);
 }
 .main-title-text {
@@ -81,6 +122,7 @@ body {
   line-height: 1.07;
   text-align: center;
   color: var(--white-color);
+  margin-bottom: 48px;
 }
 
 .main-btn {
@@ -98,6 +140,7 @@ body {
   border-radius: 4px;
   cursor: pointer;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  margin-bottom: 188px;
 }
 
 .main-btn:hover,
@@ -111,10 +154,16 @@ body {
 
 /*___________section features ______________*/
 
+.features {
+  padding-top: 120px;
+  padding-bottom: 60px;
+}
+
 .features-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  margin-bottom: 8px;
 }
 
 .features-text {
@@ -125,12 +174,18 @@ body {
 
 /*___________section whatwedo______________*/
 
+.whatwedo {
+  padding-top: 60px;
+  padding-bottom: 120px;
+}
+
 .whatwedo-titel {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 .whatwedo-foto {
   box-sizing: border-box;
@@ -141,8 +196,10 @@ body {
 
 /*___________section team______________*/
 
-.team-section {
+.team {
   background-color: var(--light-color);
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .team-main-title {
   font-weight: 700;
@@ -150,6 +207,7 @@ body {
   line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
 .team-block {
@@ -164,6 +222,7 @@ body {
 .team-foto {
   width: 264px;
   height: 260px;
+  margin-bottom: 32px;
 }
 
 .team-titel {
@@ -171,18 +230,22 @@ body {
   font-size: 20px;
   line-height: 1.2;
   text-align: center;
+  margin-bottom: 8px;
 }
 
 .team-text {
   line-height: 1.5;
   text-align: center;
   color: var(--text-color);
+  margin-bottom: 32px;
 }
 
 /* _______________________ FOOTER __________________________*/
 
-.footer-section {
+.footer {
   background-color: var(--dark-color);
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .footer-logo {
@@ -193,6 +256,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--light-color);
+  margin-bottom: 16px;
 }
 
 .footer-text {
@@ -201,6 +265,11 @@ body {
 }
 
 /*______________________________________PORTFOLIO_______________________*/
+
+.portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
 
 /*___________section buttons______________*/
 
@@ -219,6 +288,7 @@ body {
   border: 1px solid var(--accent-color);
   border-radius: 4px;
   cursor: pointer;
+  margin-bottom: 72px;
 }
 
 .portfolio-btn:hover,
@@ -238,22 +308,26 @@ body {
   border: 1px solid var(--accent-color);
   background-color: var(--white-color);
   /* box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);*/
+  margin-bottom: 48px;
 }
 
 .portfolio-foto {
   width: 360px;
   height: 300px;
+  margin-bottom: 32px;
 }
 
 .portfolio-titel {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  margin-bottom: 8px;
 }
 
 .portfolio-text {
   line-height: 1.5;
   color: var(--text-color);
+  margin-bottom: 32px;
 }
 
 /*_________________________ visually-hidden _________*/
