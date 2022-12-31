@@ -5,6 +5,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="./normalize.css">
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>WEBSTUDIO</title>
@@ -20,17 +21,13 @@
     <header>
       <!--header list -->
       <a class="logo link" href="./index.html"> <span class="logo-web">WEB</span>STUDIO </a>
-      <ul class="header-link list">
-        <li><a class="link" href="./index.html">Studio</a></li>
-        <li><a class="link" href="./portfolio.html">Portfolio</a></li>
-        <li><a class="link" href="">Contacts</a></li>
+      <ul class="list">
+        <li><a class="header-link link" href="./index.html">Studio</a></li>
+        <li><a class="header-link link" href="./portfolio.html">Portfolio</a></li>
+        <li><a class="header-link link" href="">Contacts</a></li>
       </ul>
-      <div>
-        <a class="header-contact-link link" href="mailto:info@devstudio.com">
-          info@devstudio.com
-        </a>
-        <a class="header-contact-link link" href="tel:+11(000)1111111"> +11 (000) 111-11-11 </a>
-      </div>
+      <a class="header-contact-link link" href="mailto:info@devstudio.com"> info@devstudio.com </a>
+      <a class="header-contact-link link" href="tel:+11(000)1111111"> +11 (000) 111-11-11 </a>
     </header>
     <!-- main -->
     <main>
@@ -42,7 +39,7 @@
 
       <!--section features-->
       <section>
-        <!-- <h2>Features</h2>-->
+        <h2 class="visually-hidden">Features</h2>
         <ul class="list">
           <li>
             <h3 class="features-title">Strategy</h3>
@@ -93,7 +90,7 @@
 
       <!--section team-->
       <section class="team-section">
-        <h2 class="team-title">Our Team</h2>
+        <h2 class="team-main-title">Our Team</h2>
         <ul class="list">
           <li class="team-block">
             <img class="team-foto" src="./img/ourteam/markguerrero.jpg" alt="Mark Guerrero" />
