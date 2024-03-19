@@ -41,7 +41,6 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   letter-spacing: 0.02em;
-  /* color: var(--dark-color); */
   color: #434455;
   background-color: var(--white-color);
 }
@@ -54,7 +53,6 @@ body {
 }
 
 .container {
-  /* width: 1440px; */
   padding-left: 15px;
   padding-right: 15px;
   outline: 1px solid red;
@@ -69,12 +67,10 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  /* color: var(--dark-color); */
  color: #4d5ae5;
 }
 
 .logo-web {
-  /* color: var(--primary-brand-color); */
   color: #2e2f42;
 }
 
@@ -92,7 +88,6 @@ body {
   line-height: 1.5;
   cursor: pointer;
   letter-spacing: 0.02em;
-  /* color: var(--dark-color); */
   color: #2e2f42;
 }
 
@@ -100,10 +95,8 @@ body {
   color: var(--primary-brand-color);
 }
 
-/* .header-link:active, */
 .header-link:hover,
 .header-link:focus {
-  /* color: var(--primary-brand-color); */
  color: #404bbf;
 }
 
@@ -115,14 +108,12 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  /* color: var(--text-color); */
   color: #434455;
 }
 
 .header-contact-link:active,
 .header-contact-link:hover,
 .header-contact-link:focus {
-  /* color: var(--primary-brand-color); */
   color: #404bbf;
 }
 
@@ -153,7 +144,6 @@ body {
   letter-spacing: 0.04em;
   color: var(--white-color);
   background-color: var(--primary-brand-color);
-  /* width: 169px; */
   height: 56px;
   border: 1px solid var(--primary-brand-color);
   border-radius: 4px;
@@ -206,7 +196,6 @@ body {
 }
 .whatwedo-foto {
   box-sizing: border-box;
-  /* width: 360px; */
   height: 300px;
   border: 1px solid var(--accent-color);
 }
@@ -229,7 +218,6 @@ body {
 }
 
 .team-block {
-  /* width: 264px; */
   height: 380px;
   background: var(--white-color);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
@@ -238,7 +226,6 @@ body {
 }
 
 .team-foto {
-  /* width: 264px; */
   height: 260px;
   margin-bottom: 32px;
 }
@@ -323,16 +310,13 @@ body {
 }
 
 .portfolio-block {
-  /* width: 360px; */
   height: 420px;
   border: 1px solid var(--accent-color);
   background-color: var(--white-color);
-  /* box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);*/
   margin-bottom: 48px;
 }
 
 .portfolio-foto {
-  /* width: 360px; */
   height: 300px;
   margin-bottom: 32px;
 }
@@ -354,8 +338,6 @@ body {
 /*_________________________ visually-hidden _________*/
 
 .visually-hidden {
-  /* position: absolute; */
-  /* width: 1px; */
   height: 1px;
   margin: -1px;
   border: 0;
