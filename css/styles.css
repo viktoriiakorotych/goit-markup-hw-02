@@ -177,8 +177,9 @@ body {
 }
 
 /*___________section whatwedo______________*/
-
+/* 
 .whatwedo {
+  background-color: #F4F4FD;
   padding-top: 60px;
   padding-bottom: 120px;
 }
@@ -191,7 +192,14 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   margin-bottom: 72px;
+  color: #2e2f42;
 }
+
+.whatwedo-list {
+  background-color: #FFFFFF;
+} */
+
+
 /* .whatwedo-foto {
 
 } */
@@ -199,7 +207,7 @@ body {
 /*___________section team______________*/
 
 .team {
-  background-color: var(--light-color);
+  background-color: #F4F4FD);
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -211,10 +219,11 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   margin-bottom: 72px;
+  color:  #2e2f42;
 }
 
 .team-block {
-  background: var(--white-color);
+  background-color: #FFFFFF;
 }
 
 .team-foto {
@@ -228,12 +237,15 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
+  color: #2e2f42;
 }
 
 .team-text {
+  font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   text-align: center;
-  color: var(--text-color);
+  color: #434455;
   margin-bottom: 32px;
 }
 
