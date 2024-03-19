@@ -124,13 +124,14 @@ body {
   padding-bottom: 292px;
   background-color: var(--dark-color);
 }
+
 .main-title-text {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: var(--white-color);
+  color: #ffffff;
   margin-bottom: 48px;
 }
 
@@ -139,17 +140,17 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: calc(19 / 16);
+  line-height: 1.5;
+  /* line-height: calc(19 / 16); */
   letter-spacing: 0.04em;
-  color: var(--white-color);
-  background-color: var(--primary-brand-color);
+  color: #ffffff;
+  background-color: #4D5AE5;
   cursor: pointer;
 }
 
 .main-btn:hover,
-.main-btn:focus,
-.main-btn:active {
-  background-color: var(--pressed-state-color);
+.main-btn:focus {
+  background-color: #404BBF;
 }
 
 /*___________section features ______________*/
