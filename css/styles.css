@@ -15,9 +15,8 @@
 /*
 * {
   margin: 0;
-  padding: 0;
+
   list-style: none;
-  box-sizing: border-box;
 }
 */
 
@@ -144,11 +143,8 @@ body {
   letter-spacing: 0.04em;
   color: var(--white-color);
   background-color: var(--primary-brand-color);
-  height: 56px;
   border: 1px solid var(--primary-brand-color);
-  border-radius: 4px;
   cursor: pointer;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .main-btn:hover,
@@ -195,8 +191,6 @@ body {
   margin-bottom: 72px;
 }
 .whatwedo-foto {
-  box-sizing: border-box;
-  height: 300px;
   border: 1px solid var(--accent-color);
 }
 
@@ -218,15 +212,10 @@ body {
 }
 
 .team-block {
-  height: 380px;
   background: var(--white-color);
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
-    0px 2px 1px rgba(46, 47, 66, 0.08);
-  border-radius: 0px 0px 4px 4px;
 }
 
 .team-foto {
-  height: 260px;
   margin-bottom: 32px;
 }
 
@@ -280,14 +269,11 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
   color: var(--primary-brand-color);
   background-color: var(--light-color);
   border: 1px solid var(--accent-color);
-  border-radius: 4px;
   cursor: pointer;
   margin-bottom: 72px;
 }
@@ -298,8 +284,6 @@ body {
   background-color: var(--pressed-state-color);
   color: var(--white-color);
   border: 1px solid var(--pressed-state-color);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 /*___________ section portfolio ______________*/
@@ -310,14 +294,12 @@ body {
 }
 
 .portfolio-block {
-  height: 420px;
   border: 1px solid var(--accent-color);
   background-color: var(--white-color);
   margin-bottom: 48px;
 }
 
 .portfolio-foto {
-  height: 300px;
   margin-bottom: 32px;
 }
 
@@ -338,10 +320,9 @@ body {
 /*_________________________ visually-hidden _________*/
 
 .visually-hidden {
-  height: 1px;
   margin: -1px;
   border: 0;
-  padding: 0;
+
 
   white-space: nowrap;
   clip-path: inset(100%);
