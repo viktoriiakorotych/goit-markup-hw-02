@@ -58,11 +58,16 @@ body {
   margin: 0 auto;
 }
 
-.logo-web {
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: #2e2f42;
 }
 
-.logo,
 .logo-web {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -70,10 +75,8 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42 ;
+  color: #4d5ae5;
 }
-
-
 
 .list {
   list-style: none;
@@ -112,7 +115,10 @@ body {
   color: #434455;
 }
 
-.header-contact-link:hover,
+.header-contact-link:hover {
+  color: #404bbf;
+}
+
 .header-contact-link:focus {
   color: #404bbf;
 }
@@ -151,7 +157,7 @@ body {
 
 .main-btn:hover,
 .main-btn:focus {
-  background-color:#404BBF;
+  background-color: #404bbf;
 }
 
 /*___________section features ______________*/
@@ -268,6 +274,16 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-bottom: 16px;
+}
+
+.logo-web-footer {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
 }
 
 .footer-text {
