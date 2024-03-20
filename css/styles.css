@@ -58,6 +58,10 @@ body {
   margin: 0 auto;
 }
 
+.logo-web {
+  color: #2e2f42;
+}
+
 .logo,
 .logo-web {
   font-family: 'Raleway', sans-serif;
@@ -69,9 +73,7 @@ body {
   color: #2e2f42 ;
 }
 
-.logo-web {
-  color: ;
-}
+
 
 .list {
   list-style: none;
@@ -124,7 +126,7 @@ body {
   background-color: var(--dark-color);
 }
 
-.main-title-text {
+.maintitle-text {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -149,7 +151,7 @@ body {
 
 .main-btn:hover,
 .main-btn:focus {
-  background-color: #404bbf;
+  background-color:#404BBF;
 }
 
 /*___________section features ______________*/
