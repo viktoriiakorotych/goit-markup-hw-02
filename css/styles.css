@@ -92,11 +92,12 @@ body {
   line-height: 1.5;
   cursor: pointer;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: black;
 }
 
 .current {
-  color: var(--primary-brand-color);
+  position: relative;
+  color:#404bbf;
 }
 
 .header-link:hover,
